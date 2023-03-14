@@ -2,7 +2,8 @@
 
 menubar app for replace-text
 
-![screenshot](https://user-images.githubusercontent.com/43945931/224884354-00010c92-77d5-4044-a3ee-4d0116a4e8f1.jpg)
+
+![image](https://user-images.githubusercontent.com/43945931/225087162-21997826-e77c-4bf2-a977-5d0fc6384493.png)
 
 
 ---
