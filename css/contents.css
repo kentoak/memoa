@@ -13,13 +13,14 @@
 	width: 370px;
 }
 #textArea textarea {
-	position: relative; left: 0px; top: 17px;
+	position: relative; left: 0px; top: 20px;
 	padding: 1px;
 	width: 350px;
 	height: 85px;
 	background: #fff;
 	border: #999 1px solid;
 	border-radius:5px;
+	/* overflow-y: scroll; */
 }
 #textArea1 textarea {
 	padding: 1px;
@@ -32,7 +33,7 @@
 #textArea2 textarea {
 	padding: 1px;
 	width: 350px;
-	height: 40px;
+	height: 90px;
 	background: #fff;
 	border: #999 1px solid;
 	border-radius:5px;

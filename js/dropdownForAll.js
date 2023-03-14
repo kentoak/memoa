@@ -1,6 +1,6 @@
 $(function () {
     $('#select-multiple').multipleSelect({
-        width:117, 
+        width:110, 
         formatSelectAll: function() {
             return 'すべて';
         },
@@ -9,11 +9,11 @@ $(function () {
         }
     });
     $(".select-choice").css({
-        width: '110',
+        width: '100',
         height: '16'
     });
     $(".ms-choice").css({
-		width: '110',
+		width: '100',
 		height: '16'
 	});
 	$(".ms-choice").css({

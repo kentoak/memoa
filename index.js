@@ -26,13 +26,14 @@ app.on("ready", () => {
   const mb = menubar({
     browserWindow: {
       icon: image,
-      transparent: path.join(__dirname, `images/iconApp.png`),
+      //transparent: path.join(__dirname, `images/iconApp.png`),
+      transparent: path.join(__dirname, `images/icon.png`),
       webPreferences: {
         webviewTag: true,
         // nativeWindowOpen: true,
       },
-      width: 380,
-      height: 680,
+      width: 370,
+      height: 590,
     },
     tray,
     showOnAllWorkspaces: true,
@@ -52,7 +53,6 @@ app.on("ready", () => {
     }
 
     const contextMenuTemplate = [
-      // add links to github repo and vince's twitter
       {
         label: "Quit",
         accelerator: "Command+Q",
@@ -67,19 +67,25 @@ app.on("ready", () => {
           window.reload();
         },
       },
-      {
-        label: "Open in browser",
-        click: () => {
-          shell.openExternal("./index_.html");
-        },
-      },
+      // {
+      //   label: "Open in browser",
+      //   click: () => {
+      //     shell.openExternal("./index_.html");
+      //   },
+      // },
       {
         type: "separator",
       },
       {
         label: "View on GitHub",
         click: () => {
-          shell.openExternal("https://github.com/kentoak/memoa");
+          shell.openExternal("https://github.com/kentoak/memoa").then(() => {
+            // 何か処理
+            window.close();
+          }).catch((e) => {
+              // 何かエラー時の処理
+              console.log(`Error!: ${e}`);
+          });
         },
       },
       {
