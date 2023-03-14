@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+
+/* =======================================
+
+	ContentsElements
+
+======================================= */
+
+/* textArea
+------------------------ */
+#textArea {
+	margin: 10 auto;
+	width: 370px;
+}
+#textArea textarea {
+	position: relative; left: 0px; top: 17px;
+	padding: 1px;
+	width: 350px;
+	height: 85px;
+	background: #fff;
+	border: #999 1px solid;
+	border-radius:5px;
+}
+#textArea1 textarea {
+	padding: 1px;
+	width: 350px;
+	height: 20px;
+	background: #fff;
+	border: #999 1px solid;
+	border-radius:5px;
+}
+#textArea2 textarea {
+	padding: 1px;
+	width: 350px;
+	height: 40px;
+	background: #fff;
+	border: #999 1px solid;
+	border-radius:5px;
+}
+#input,#preview {
+	/* position: relative; left: 0px; top: 17px;
+	padding: 1px; */
+	padding: 1px;
+	width: 350px;
+	height: 55px;
+	background: #fff;
+	border: #999 1px solid;
+	border-radius:5px;
+}
+
+#before-txt,#after-txt,#before-txt2,#after-txt2,#insert_before-txt,#insert_after-txt {
+	height: 15px;
+	/* border-radius:5px; */
+	padding: 1px;
+}
+
+#btn5{
+	position: absolute; left: 8px;  top: 5px
+}
+#btn4{
+	position: absolute; left: 40px;  top: 5px
+}
+#btn1{
+	position: absolute; left: 72px; top: 5px
+}
+#btn2{
+	position: absolute; left: 134px; top: 5px
+}
+#btn7{
+	position: absolute; left: 179px; top: 5px
+}
+#btn8{
+	position: absolute; left: 229px; top: 5px
+}
+#btn6{
+	position: absolute; left: 264px; top: 5px
+}
+#btn3{
+	position: absolute; left: 306px; top: 5px
+}
+#count1{  /*文字数*/
+	position: relative; left: 320px; top: 15px;
+}
+#submit-button1,#clear-button1{
+	height: 20px;
+	padding: 1px;
+}
+.replaceWord{
+	/* padding: .05rem; */
+	margin: .1rem;
+}
+#check5,#check4,#check6,#check8{
+	padding: .01rem;
+	margin: .05rem;
+}
+#explanation{
+	margin: 0rem;
+	line-height:.9;
+}
+#al-type{
+	width: 95px;
+}
+p.dotted-bottom {
+	border-bottom: dotted;
+	padding: .05rem;
+	margin: .1rem;
+}
+body{
+	font-family : "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Helvetica,Arial,Sans-Serif;
+	background-color: #EFECE7;
+	color: #626F5D;
+	font-size: 14px;
+	line-height: 1.5;
+}
+textarea,input,select{
+	border: 1px solid #ddd;
+	font-family : "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Helvetica,Arial,Sans-Serif;
+}
