@@ -1,0 +1,47 @@
+{
+    "name": "memoa",
+    "productName": "memoa",
+    "version": "1.0",
+    "description": "Menubar app for replace-text",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron-forge start",
+        "package": "electron-forge package --arch x64",
+        "make": " electron-forge make --arch x64",
+        "publish": "electron-forge publish --arch x64",
+        "lint": "echo \"No linting configured\""
+    },
+    "keywords": [
+        "replace-text",
+        "spongebob",
+        "mac"
+    ],
+    "author": {
+        "name": "Vince Loewe",
+        "email": "vince@lyser.io"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "electron-context-menu": "^3.6.0",
+        "electron-prebuilt-compile": "^8.2.0",
+        "menubar": "^9.2.3",
+        "nucleus-analytics": "^4.0.3",
+        "update-electron-app": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kentoak/memoa"
+    },
+    "devDependencies": {
+        "@electron-forge/cli": "^6.0.4",
+        "@electron-forge/maker-deb": "^6.0.4",
+        "@electron-forge/maker-dmg": "^6.0.4",
+        "@electron-forge/maker-rpm": "^6.0.4",
+        "@electron-forge/maker-squirrel": "^6.0.4",
+        "@electron-forge/maker-zip": "^6.0.4",
+        "@electron-forge/publisher-github": "^6.0.4",
+        "dotenv": "^16.0.3",
+        "electron": "^21.0.0",
+        "electron-squirrel-startup": "^1.0.0"
+    }
+}
