@@ -9,6 +9,10 @@ menubar app for replace-text
 ---
 
 ## How to install
+[Click here for Intel Mac](https://github.com/kentoak/memoa/releases/tag/ver1.0)
+
+or
+
 1. node_modulesをインストール
 
     `npm install electron-prebuilt-compile --save`
@@ -27,8 +31,6 @@ menubar app for replace-text
 * 全角に挟まれた半角スペースを削除（テキストボックスにペーストすると自動で半角スペースが削除される。）
 * 改行などの削除
 * テキスト置換する（2つまで）
-
-`Alt+M`で呼び出す。Macだと`⌥+M`。
 
 ---
 
@@ -111,8 +113,7 @@ e.g.)
 
 * etc
     * テキストボックスにペーストすると自動で全角に囲まれた半角スペースが削除されるが、何回かフォーカスしないと途中までしかやってくれないかもしれないので注意。
-    * 履歴が3つまで残る。（History1~3）
-    * 下段のテキストボックスはなにもしないので元のテキストの保存用に。Memoは履歴には残らないただのテキストボックス。
+    * 下段のテキストボックスはなにもしないので元のテキストの保存用に。Memoは半角スペース削除をしないただのテキストボックス。
 
 
 ### 文字列置換
