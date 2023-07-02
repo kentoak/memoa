@@ -15,7 +15,8 @@ const {
 const contextMenu = require("electron-context-menu");
 
 const image = nativeImage.createFromPath(
-  path.join(__dirname, `images/newiconTemplate.png`)
+  //path.join(__dirname, `images/newiconTemplate.png`)
+  path.join(__dirname, `images/icon.iconset/icon_16x16.png`)
 );
 
 app.on("ready", () => {
